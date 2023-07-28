@@ -14,7 +14,7 @@
 - HTML
 - CSS
 - Javascript
-## Functionality
+## Features
   - Multipage Shopping website
   - Multiple Products
   - Shopping Cart
