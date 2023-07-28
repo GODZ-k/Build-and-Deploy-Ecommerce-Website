@@ -1,11 +1,8 @@
 # Build-and-Deploy-E-commerce-Website-With-HTML-CSS-JavaScript- [Click here ](https://lovely-bavarois-e53407.netlify.app/)
-## About this course
-LEARN HOW TO BUILD AND DEPLOY FULLY RESPONSIVE E-COMMERCE WEBSITES USING HTML CSS & JAVASCRIPT. This is a free HTML CSS Course. And in this course, we will learn how to build and deploy a full multipage e-commerce website completely from scratch step by step. Will Create from responsive navbar using HTML CSS and JavaScript to responsive footer 
-## Why This Course?
-- Responsive E-commerce Website Tutorial Using HTML CSS & JavaScript.
-- Completely For Beginners.
+## About this Project
+ BUILD AND DEPLOY FULLY RESPONSIVE E-COMMERCE WEBSITES USING HTML CSS & JAVASCRIPT And in this project, we will build and deploy a full multipage e-commerce website completely from scratch step by step. Will Create from responsive navbar using HTML CSS and JavaScript to responsive footer.
+## Why This Project?
 - Multipage E-commerce Website Project.
-- Best Beginner Friendly Free Course On YouTube.
 - Learn How to build amazing professional and responsive websites.
 - Learn the fundamentals of web design.
 - Modern CSS, including Flexbox and CSS Grid for layout.
@@ -13,6 +10,17 @@ LEARN HOW TO BUILD AND DEPLOY FULLY RESPONSIVE E-COMMERCE WEBSITES USING HTML CS
 - How to use common components and layout patterns for professional website design and development.
 - Advanced responsive design using media queries.
 - And Many More.
+## What we used in this project?
+- HTML
+- CSS
+- Javascript
+## Functionality
+  - Multipage Shopping website
+  - Multiple Products
+  - Shopping Cart
+  - Remove item into the Cart
+  - Responsive
+  
 ## Sections
 - Page 1: Responsive Home Page Design.
 - Page 2: Shop Page & Single Product Page.
