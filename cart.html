@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatable" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cara</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="/index.css">
+
+
+</head>
+
+<body>
+
+
+
+    <section id="header">
+        <a href="#">
+            <img src="/img/logo.png" class="logo" alt="">
+        </a>
+        <div>
+            <ul id="navbar">
+
+                <li>
+                    <a href="index.html"> Home</a>
+                </li>
+                <li>
+                    <a href="shop.html">Shop </a>
+                </li>
+                <li>
+                    <a href="Blog.html"> Blog</a>
+                </li>
+                <li>
+                    <a href="About.html"> About</a>
+                </li>
+                <li>
+                    <a href="Contact.html"> Contact</a>
+                </li>
+                <li id="lg-bag">
+                    <a class="active" href="cart.html"> <i class="far fa-shopping-bag"></i></a>
+                </li>
+                <a href="#" id="close">
+                    <i class="far fa-times"></i>
+                </a>
+            </ul>
+
+        </div>
+        <div class="hamburger">
+            <a href="cart.html"> <i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+
+
+
+        </div>
+    </section>
+    <section class="about-header">
+        <h2>#cart</h2>
+        <p>Add your coupon code & SAVE upto 70%!</p>
+    </section>
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>REMOVE</td>
+                    <td>IMAGE</td>
+                    <td>PRODUCT</td>
+                    <td>PRICE</td>
+                    <td>QUANTITY</td>
+                    <td>SUBTOTAL</td>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="rmv-item1">
+                    <td>
+                        <i class="far fa-times-circle" onclick="remove()"></i>
+                    </td>
+                    <td><img src="img/product/f1.jpg" alt=" "></td>
+                    <td>Cartoon Astronout T-shirt</td>
+                    <td>$126</td>
+                    <td><input type="number" name="number" value="1">
+                    </td>
+                    <td>$126</td>
+                </tr>
+                <tr id="rmv-item2">
+                    <td>
+                        <i class="far fa-times-circle" onclick="remove2()"></i>
+                    </td>
+                    <td><img src="img/product/f2.jpg" alt=" "></td>
+                    <td>Cartoon Astronout T-shirt</td>
+                    <td>$126</td>
+                    <td><input type="number" name="number" value="1">
+                    </td>
+                    <td>$126</td>
+                </tr>
+                <tr id="rmv-item3">
+                    <td>
+                        <i class="far fa-times-circle" onclick="remove3()"></i>
+                    </td>
+                    <td><img src="img/product/f3.jpg" alt=" "></td>
+                    <td>Cartoon Astronout T-shirt</td>
+                    <td>$126</td>
+                    <td><input type="number" name="number" value="1">
+                    </td>
+                    <td>$126</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="coupon" class="section-p1">
+        <div class="apply-coupon">
+            <h3>Apply Coupon</h3>
+            <input type="tex" name="coupon" placeholder="Enter your Coupon">
+            <button class=" coup-btn">Apply</button>
+        </div>
+
+        <div class="bor">
+            <div class="total">
+                <h3>Cart Total</h3>
+                <table width="100%">
+                    <tr>
+                        <td>Cart Subtotal</td>
+                        <td>$ 332</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Total
+                        </th>
+                        <th>$ 332</th>
+                    </tr>
+
+
+                </table>
+                <button class="coup-btn"> Proceed to checkout</button>
+            </div>
+        </div>
+
+    </section>
+    <footer class="section-p1">
+        <div class="col">
+
+            <img class="logo" src="img/logo.png" alt=" ">
+            <h4> Contact</h4>
+            <p> <strong>Address:</strong> Village Post Machhra Distt Meerut "250106 ", Uttar Pradesh ,India</p>
+            <p><strong>Phone:</strong> (+91)8791281181 /(+91)9520630257</p>
+            <p><strong>Hours:</strong> 10:00 - 18:00 Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <i class="fab fa-facebook" title="Facebook"> </i>
+                <i class="fab fa-linkedin" title="Linkedin"> </i>
+                <i class="fab fa-instagram" title="Instagram"> </i>
+                <i class="fab fa-twitter" title="Twitter"> </i>
+                <i class="fab fa-github" title="Github"> </i>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <ul>
+                <li>
+                    <a href="#">About Us</a>
+                </li>
+                <li>
+                    <a href="#">Delivery Information</a>
+                </li>
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="#">Term & condition</a>
+                </li>
+                <li>
+                    <a href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <ul>
+                <li>
+                    <a href="#">Sign In</a>
+                </li>
+                <li>
+                    <a href="#">View Cart</a>
+                </li>
+                <li>
+                    <a href="#">My Wishlist </a>
+                </li>
+                <li>
+                    <a href="#">Track My Order</a>
+                </li>
+                <li>
+                    <a href="#">Help</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col install">
+            <h4> Install App</h4>
+            <p>From App Store or Google Play
+            </p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt=" ">
+                <img src="img/pay/play.jpg" alt=" ">
+            </div>
+            <p>Secure Payment Gateways</p>
+            <img src="img/pay/pay.png" alt=" ">
+        </div>
+        <div class="copyright section-m1">
+            <p>© 2021, Tanmay Khatri HTML CSS Ecommerce Website</p>
+        </div>
+    </footer>
+
+    <script src="/index.js">
+    </script>
+</body>
+
+</html>
+
+</html>
